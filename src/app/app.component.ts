@@ -29,13 +29,14 @@ export class AppComponent {
    constructor(private map: MapsService){//db: AngularFirestore ){
     //this.items = db.collection('items').valueChanges();
   }
-  //  ngOnInit(){
-  //   this.map.getLocation().subscribe(data => {
-  //     console.log(data);
-       //this.lat = data.latitude;
-       //this.lng = data.longitude;
-  //     this.title = data.country_name;
-  //   })
-  // }
+    /*  ngOnInit(){
+     this.map.getLocation().subscribe(data => {
+       console.log(data);
+       this.lat = data.latitude;
+       this.lng = data.longitude;
+       this.title = data.country_name;
+   })
+   } */
+
 
 }
